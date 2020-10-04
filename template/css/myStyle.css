@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+@font-face {
+	font-family: 'GI';
+	src: url('../fonts/gi-bold-web.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'GI';
+	src: url('../fonts/gi-regular-web.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	-webkit-transition: opacity 800ms;
+	transition: opacity 800ms;
+	opacity: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'GI', sans-serif !important;
+}
+
+#pamSvg {
+	width: 500px;
+	margin-top: 250px;
+	right: 490px;
+	position: absolute;
+}
+
+.hello {
+	font-size: 5.0517rem;
+	line-height: 1;
+	margin: 0px .45em -.04em;
+	font-weight: 700;
+	text-align: left;
+	margin-top: 20px;
+	position: absolute;
+	top: 60px;
+	left: 150px;
+}
+
+/* Background shapes for home section left side of drawing*/
+
+#circleTop {
+	float: left;
+	width: 3.5em;
+	position: relative;
+	margin-left: 190px;
+	margin-top: -300px;
+	animation-duration: 2s;
+	animation-name: animateShapes;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+@keyframes animateShapes {
+	from {
+		transform: translateX(0) translateY(0);
+	}
+	to {
+		transform: translateX(10px) translateY(-15px);
+	}
+}
+
+#triangleTop {
+	float: left;
+	width: 3.5em;
+	position: relative;
+	margin-left: 130px;
+	margin-top: -180px;
+	animation-duration: 2s;
+	animation-name: animateShapes;
+	animation-direction: alternate-reverse;
+	animation-iteration-count: infinite;
+}
+
+#lightBoltTop {
+	float: left;
+	width: 2.5em;
+	position: relative;
+	margin-left: 300px;
+	margin-top: -86px;
+	animation-duration: 3s;
+	animation-name: animateShapes;
+	animation-direction: alternate-reverse;
+	animation-iteration-count: infinite;
+}
+
+#CircleSmallTop {
+	float: left;
+	width: 2em;
+	position: relative;
+	margin-left: 230px;
+	margin-top: 100px;
+	animation-duration: 2s;
+	animation-name: animateShapes;
+	animation-direction: alternate-reverse;
+	animation-iteration-count: infinite;
+}
+
+#lightBoltTop2 {
+	float: left;
+	width: 2.5em;
+	position: relative;
+	margin-left: -200px;
+	margin-top: 205px;
+	animation-duration: 4s;
+	animation-name: animateShapes;
+	animation-direction: alternate-reverse;
+	animation-iteration-count: infinite;
+}
+
+/* Background shapes for home section right side of drawing*/
+
+#triangleTopRight {
+	float: right;
+	width: 3.5em;
+	position: relative;
+	margin-right: 190px;
+	margin-top: -260px;
+	animation-duration: 2s;
+	animation-name: animateShapes;
+	animation-direction: alternate-reverse;
+	animation-iteration-count: infinite;
+}
+
+#circleSmallRight {
+	float: right;
+	width: 2em;
+	position: relative;
+	margin-right: 210px;
+	margin-top: -100px;
+	animation-duration: 4s;
+	animation-name: animateShapes;
+	animation-direction: alternate-reverse;
+	animation-iteration-count: infinite;
+}
+
+#lightBoltRight {
+	float: right;
+	width: 2.5em;
+	position: relative;
+	margin-right: 235px;
+	margin-top: 20px;
+	animation-duration: 3s;
+	animation-name: animateShapes;
+	animation-direction: alternate-reverse;
+	animation-iteration-count: infinite;
+}
+
+#circleLargeTop {
+	float: right;
+	width: 3.5em;
+	position: relative;
+	margin-left: 190px;
+	margin-top: -300px;
+	animation-duration: 4s;
+	animation-name: animateShapes;
+	animation-direction: alternate-reverse;
+	animation-iteration-count: infinite;
+}
+
+/********************ABOUT SECTION STARTS HERE*************************************/
+#aboutBlackLine {
+	margin-top: 100px;
+	position: absolute;
+	z-index: -99;
+}
+
+#aboutDrawing {
+	width: 350px;
+	float: right;
+	z-index: 1;
+	margin-right: 143px;
+	margin-top: -161px;
+	position: relative;
+	animation-duration: 3s;
+	animation-name: animateShapes;
+	animation-direction: alternate-reverse;
+	animation-iteration-count: infinite;
+}
+
+#aboutP {
+	margin-top: 20px;
+	padding-left: 290px;
+	position: relative;
+	z-index: 2;
+}
+
+#aboutText {
+	margin-top: 225px;
+	padding-left: 290px;
+	height: 55px;
+	position: relative;
+	z-index: 2;
+}
+
+#aboutSmallCircleLeft {
+	top: 240px;
+	left: 360px;
+	position: relative;
+	z-index: 2;
+	animation-duration: 1s;
+	animation-name: animateShapes;
+	animation-direction: alternate-reverse;
+	animation-iteration-count: infinite;
+}
+
+#aboutCircleLargeLeft {
+	margin-top: 20px;
+	padding-left: 290px;
+	position: relative;
+	z-index: 2;
+	animation-duration: 2s;
+	animation-name: animateShapes;
+	animation-direction: alternate-reverse;
+	animation-iteration-count: infinite;
+}
+
+#aboutSmallCircleRight {
+	margin-top: 20px;
+	padding-left: 290px;
+	position: relative;
+	z-index: 2;
+	animation-duration: 4s;
+	animation-name: animateShapes;
+	animation-direction: alternate-reverse;
+	animation-iteration-count: infinite;
+}
+
+#aboutSmallCircleRight2 {
+	float: right;
+	z-index: 1;
+	margin-right: 140px;
+	margin-top: 100px;
+	position: relative;
+	animation-duration: 1s;
+	animation-name: animateShapes;
+	animation-direction: alternate-reverse;
+	animation-iteration-count: infinite;
+}
+
+#aboutTriangleWithLineRight {
+	float: right;
+	z-index: 1;
+	margin-right: 140px;
+	margin-top: 100px;
+	position: relative;
+	animation-duration: 2s;
+	animation-name: animateShapes;
+	animation-direction: alternate-reverse;
+	animation-iteration-count: infinite;
+}
+
+#aboutLightBoltRight {
+	float: right;
+	z-index: 1;
+	margin-right: 140px;
+	margin-top: 100px;
+	position: relative;
+	animation-duration: 1s;
+	animation-name: animateShapes;
+	animation-direction: alternate-reverse;
+	animation-iteration-count: infinite;
+}
